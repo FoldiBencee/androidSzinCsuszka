@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+
+//elso
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/text_Red"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PIRI"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <SeekBar
+            android:id="@+id/seekRED"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4"
+            android:max="255"
+            />
+    </LinearLayout>
+
+    //zold
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_Green"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ZUUD"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/seekGREEN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4"
+            android:max="255" />
+    </LinearLayout>
+
+
+
+    //kek szi a harmadik
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/text_Blue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="KEK"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+
+
+
+
+        <SeekBar
+            android:id="@+id/seekBLUE"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:layout_gravity="center_vertical"
+            android:max="255"
+            />
+    </LinearLayout>
+
+/negyzetszar
+    <TextView
+        android:id="@+id/hatter_RGB"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="40dp" />
+
+
+</LinearLayout>
